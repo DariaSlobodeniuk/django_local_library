@@ -1,0 +1,6 @@
+pytest --cov-config=.coveragerc
+       --cov=locallibrary
+       locallibrary/catalog/tests/
+
+[run]
+omit = tests/*
